@@ -46,10 +46,6 @@ html {
 }
 
 .logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 4px;
   font-size: 32px;
 }
 
@@ -186,6 +182,65 @@ a.each-section .text p {
   text-decoration: underline;
 }
 
+/* ****** */
+/* Section locations */
+/* ****** */
+
+.location--cities-countries {
+  margin: 4.8rem auto;
+  padding: 4.8rem;
+  font-size: 1.8rem;
+}
+
+.location-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.locations-area {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 5.6rem;
+}
+
+.cities-map {
+  margin-bottom: 3.2rem;
+}
+
+.cities-map img {
+  width: 100%;
+}
+
+.location-intro a:link,
+.location-intro a:visited {
+  color: #000;
+}
+
+.current-geolocation-cities {
+  display: flex;
+  gap: 4.8rem;
+  margin-bottom: 6.4rem;
+}
+
+.location-intro {
+  margin-top: 0;
+}
+
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+.countries a:link,
+.countries a:visited {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
 /* *********************** */
 /* FOOTER STYLING */
 /* *********************** */
@@ -227,7 +282,7 @@ a.each-section .text p {
 }
 
 .privacy-policy-terms-and-pricing a:link,
-.privacy-policy-terms-and-pricing a:active {
+.privacy-policy-terms-and-pricing a:visited {
   color: #000;
   text-decoration: none;
 }
