@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #000;
+}
+
+.footer a:link,
+.footer a:visited {
+  color: #f7f7f7;
+  text-decoration: none;
+}
